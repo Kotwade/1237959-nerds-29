@@ -1,0 +1,234 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --arrow-black: #231F20;
+  --dark: #283136;
+  --basic-dark: #444444;
+  --midle-dark: #666666;
+  --grey: #eeeeee;
+  --checkbox-grey: #4D4D4D;
+  --border-grey: #D7DCDE;
+  --border-grey-midle: #DBDBDB;
+  --border-grey-dark: #B4B9BB;
+  --cart-grey: #A6A6A6;
+  --light-grey: #E1E1E1;
+  --midle-grey: #DFDFDF;
+  --dark-grey: #D5D5D5;
+  --basic-red: #FB565A;
+  --midle-red: #E74246;
+  --dark-red: #D7373B;
+  --basic-green: #00CA74;
+  --midle-green: #00BC6C;
+  --dark-green: #00AA62;
+  --basic-yellow: #EFC84A;
+  --midle-yellow: #EAB534;
+  --dark-yellow: #E5A722;
+}
+
+body {
+  min-width: 1160px;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--black);
+  background-color: var(--white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-header {
+  background-color: var(--grey);
+}
+
+.site-nav {
+  list-style: none;
+}
+
+.site-nav a {
+  line-height: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--basic-red);
+}
+
+.site-nav a:active {
+  color: var(--black);
+  opacity: 0.3;
+}
+
+.cart {
+  line-height: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.cart:hover,
+.cart:focus {
+  color: var(--basic-red);
+}
+
+.cart:active {
+  color: var(--black);
+  opacity: 0.3;
+}
+
+.slider {
+  background-color: var(--grey);
+}
+
+.slide-title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.slide-text {
+  color: var(--dark);
+}
+
+.button {
+  font: inherit;
+  border: none;
+  border-radius: 3px;
+  line-height: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--white);
+  background-color: var(--basic-red);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--midle-red);
+}
+
+.button:active {
+  background-color: var(--dark-red);
+}
+
+.button-app {
+  background-color: var(--basic-green);
+}
+
+.button-app:hover,
+.button-app:focus {
+  background-color: var(--midle-green);
+}
+
+.button-app:active {
+  background-color: var(--dark-green);
+}
+
+.button-presentation {
+  background-color: var(--basic-yellow);
+}
+
+.button-presentation:hover,
+.button-presentation:focus {
+  background-color: var(--midle-yellow);
+}
+
+.button-presentation:active {
+  background-color: var(--dark-yellow);
+}
+
+.offer-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.offer-text {
+  color: var(--dark);
+}
+
+.slogan {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.about-text {
+  color: var(--dark);
+}
+
+.about-title {
+  text-transform: uppercase;
+  color: var(--dark);
+  font-weight: 700;
+}
+
+.about-list {
+  list-style: none;
+}
+
+.about-list p {
+  color: var(--dark);
+}
+
+.statistics-text {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.statistics-list {
+  list-style: none;
+}
+
+.statistics-list span {
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.percent {
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.statistics-list p {
+  line-height: 18px;
+  color: var(--dark);
+}
+
+.address-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.address-text {
+  line-height: 18px;
+  color: var(--midle-dark);
+}
+
+.social-slogan {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.social-offer-text {
+  line-height: 22px;
+  color: var(--basic-dark);
+}
