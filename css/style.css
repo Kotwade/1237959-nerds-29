@@ -194,7 +194,7 @@ img {
   list-style: none;
 }
 
-.statistics-list span {
+.number {
   font-weight: bold;
   font-size: 45px;
   line-height: 64px;
