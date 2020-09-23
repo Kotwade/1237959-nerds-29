@@ -7,6 +7,8 @@
   --midle-dark: #666666;
   --grey: #eeeeee;
   --checkbox-grey: #4D4D4D;
+  --border-shadow: rgba(0, 1, 1, 0.1);
+  --border-current: rgba(0, 0, 0, 0.0001);
   --border-grey: #D7DCDE;
   --border-grey-midle: #DBDBDB;
   --border-grey-dark: #B4B9BB;
@@ -231,4 +233,77 @@ img {
 .social-offer-text {
   line-height: 22px;
   color: var(--basic-dark);
+}
+
+.page-title {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+  background-color: var(--grey);
+}
+
+.sort-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.sort-list {
+  list-style: none;
+}
+
+.sort-list a {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--black);
+  opacity: 0.3;
+}
+
+.sort-list a:hover,
+.sort-list a:focus {
+  opacity: 0.6;
+}
+
+.sort-list a:active {
+  opacity: 1;
+}
+
+.sort-item-current {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a {
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--black);
+  background-color: var(--grey);
+  border-radius: 3px;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus {
+  background-color: var(--midle-grey);
+}
+
+.pagination-item a:active {
+  background-color: var(--dark-grey);
+  box-shadow: inset 0px 3px 0px var(--border-shadow);
+}
+
+.pagination-item-current a,
+.pagination-item-current a:hover,
+.pagination-item-current a:focus,
+.pagination-item-current a:active {
+  border: 3px solid var(--border-grey-midle);
+  box-shadow: none;
+  background-color: var(--white);
 }
