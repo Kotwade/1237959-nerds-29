@@ -8,7 +8,6 @@
   --grey: #eeeeee;
   --checkbox-grey: #4D4D4D;
   --border-shadow: rgba(0, 1, 1, 0.1);
-  --border-current: rgba(0, 0, 0, 0.0001);
   --border-grey: #D7DCDE;
   --border-grey-midle: #DBDBDB;
   --border-grey-dark: #B4B9BB;
@@ -296,7 +295,7 @@ img {
 
 .pagination-item a:active {
   background-color: var(--dark-grey);
-  box-shadow: inset 0px 3px 0px var(--border-shadow);
+  box-shadow: inset 0 3px 0 var(--border-shadow);
 }
 
 .pagination-item-current a,
