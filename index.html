@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
@@ -7,7 +7,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="page-body">
     <header class="main-header">
       <nav class="main-nav">
         <a class="main-nav-logo">
@@ -22,7 +22,7 @@
         <a class="cart" href="#">Корзина</a>
       </nav>
     </header>
-    <main>
+    <main class="container">
       <div class="slider">
         <div>
           <section class="slide slide-1">
@@ -71,34 +71,36 @@
           </li>
         </ul>
       </section>
-      <section class="about">
-        <h2 class="slogan">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
-        <p class="about-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчетпревыше креатива. Работаем не покладая рук, как роботы.</p>
-        <p class="about-title">Выполняем заказы на разработку:</p>
-        <ul class="about-list">
-          <li><p>	Веб-сайтов любой сложности</p></li>
-          <li><p>Мобильных приложений для iOS и Android</p></li>
-          <li><p>Слайдшоу и видео для корпоративных презентаций</p></li>
-        </ul>
-      </section>
-      <section class="statistics">
-        <img src="img/nerds-illustration-logo.png" width="360" height="208" alt="Иллюстрация с логотипом сайта">
-        <p class="statistics-text">с 2004 года Любим точность во всем:</p>
-        <ul class="statistics-list">
-          <li>
-            <p class="number">146<span class="percent">%</span></p>
-            <p>Уровень самоотдачи</p>
-          </li>
-          <li>
-            <p class="number">100<span class="percent">%</span></p>
-            <p>Соблюдение сроков</p>
-          </li>
-          <li>
-            <p class="number">100<span class="percent">%</span></p>
-            <p>Минимальная предоплата</p>
-          </li>
-        </ul>
-      </section>
+      <div class="about-wrapper">
+        <section class="about">
+          <h2 class="slogan">Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+          <p class="about-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчетпревыше креатива. Работаем не покладая рук, как роботы.</p>
+          <p class="about-title">Выполняем заказы на разработку:</p>
+          <ul class="about-list">
+            <li><p>	Веб-сайтов любой сложности</p></li>
+            <li><p>Мобильных приложений для iOS и Android</p></li>
+            <li><p>Слайдшоу и видео для корпоративных презентаций</p></li>
+          </ul>
+        </section>
+        <section class="statistics">
+          <img src="img/nerds-illustration-logo.png" width="360" height="208" alt="Иллюстрация с логотипом сайта">
+          <p class="statistics-text">с 2004 года Любим точность во всем:</p>
+          <ul class="statistics-list">
+            <li>
+              <p class="number">146<span class="percent">%</span></p>
+              <p>Уровень самоотдачи</p>
+            </li>
+            <li>
+              <p class="number">100<span class="percent">%</span></p>
+              <p>Соблюдение сроков</p>
+            </li>
+            <li>
+              <p class="number">100<span class="percent">%</span></p>
+              <p>Минимальная предоплата</p>
+            </li>
+          </ul>
+        </section>
+      </div>
       <section class="work">
         <ul class="work-list">
           <li><img src="img/html-logo.png" width="199" height="68" alt="Логотип HTML-Академии"></li>
@@ -118,7 +120,6 @@
         </div>
       </section>
       <section class="footer-social">
-        <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="social-list">
           <li><a class="social-button" href="#">Вконтакте</a></li>
           <li><a class="social-button" href="#">Фейсбук</a></li>

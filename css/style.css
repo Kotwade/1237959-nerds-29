@@ -47,8 +47,27 @@ img {
   height: auto;
 }
 
+.page {
+  height: 100%;
+}
+
+.page-body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+  align-content: start;
+}
+
 .main-header {
   background-color: var(--grey);
+}
+
+.main-nav {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 49px 0;
+  display: grid;
+  grid-template-columns: 160px 1fr min-content;
 }
 
 .site-nav {
@@ -87,6 +106,12 @@ img {
 .cart:active {
   color: var(--black);
   opacity: 0.3;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .slider {
@@ -151,6 +176,15 @@ img {
   background-color: var(--dark-yellow);
 }
 
+.offer-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 100px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .offer-title {
   font-weight: bold;
   font-size: 24px;
@@ -160,6 +194,12 @@ img {
 
 .offer-text {
   color: var(--dark);
+}
+
+.about-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 149px;
 }
 
 .slogan {
@@ -193,6 +233,11 @@ img {
 
 .statistics-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 22px;
 }
 
 .number {
@@ -212,6 +257,8 @@ img {
 }
 
 .work-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   list-style: none;
 }
 
@@ -225,6 +272,22 @@ img {
 .address-text {
   line-height: 18px;
   color: var(--midle-dark);
+}
+
+.footer-social {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-offer {
+  justify-self: center;
 }
 
 .social-slogan {
