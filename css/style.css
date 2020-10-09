@@ -65,13 +65,21 @@ img {
 .main-nav {
   width: 1160px;
   margin: 0 auto;
-  padding: 49px 0;
+  padding: 75px 0;
   display: grid;
   grid-template-columns: 160px 1fr min-content;
 }
 
+.main-nav-logo img {
+  margin: -30px 0 0;
+  padding: 0;
+}
+
 .site-nav {
   list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 245px 0 165px;
 }
 
 .site-nav a {
@@ -116,6 +124,11 @@ img {
 
 .slider {
   background-color: var(--grey);
+  display: flex;
+}
+
+.slide {
+  width: 538px;
 }
 
 .slide-title {
@@ -126,6 +139,24 @@ img {
 
 .slide-text {
   color: var(--dark);
+}
+
+.slide-2 {
+  display: none;
+}
+
+.slide-3 {
+  display: none;
+}
+
+.slider-buttons {
+  margin-top: 200px;
+}
+
+.bullet-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .button {
