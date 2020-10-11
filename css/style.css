@@ -346,14 +346,24 @@ img {
   color: var(--basic-dark);
 }
 
-.page-title {
-  font-weight: 500;
-  font-size: 55px;
-  line-height: 55px;
+.page-title-wrapper {
   background-color: var(--grey);
 }
 
+.page-title {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0;
+  padding-bottom: 108px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
 .catalog-wrapper {
+  width: 1160px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 260px 1fr;
 }
@@ -435,4 +445,13 @@ img {
 
 .promo-list {
   list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.promo-list-item {
+  margin-right: 42px;
+  margin-bottom: 31px;
 }
