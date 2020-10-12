@@ -371,6 +371,7 @@ img {
 .sort-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 48px;
 }
 
 .sort-title {
@@ -386,6 +387,9 @@ img {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
 }
 
 .sort-list a {
@@ -408,12 +412,18 @@ img {
 .sort-item-current {
   font-size: 14px;
   line-height: 18px;
+  padding-top: 4px;
   text-transform: uppercase;
   color: var(--black);
 }
 
 .pagination-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 443px;
 }
 
 .pagination-item a {
