@@ -1077,8 +1077,10 @@ input::-webkit-inner-spin-button {
   margin: 0;
   padding: 0;
   display: flex;
-  justify-content: space-between;
-  width: 443px;
+}
+
+.pagination-item {
+  margin-right: 11px;
 }
 
 .pagination-item a {
@@ -1088,7 +1090,7 @@ input::-webkit-inner-spin-button {
   color: var(--black);
   background-color: var(--grey);
   border-radius: 3px;
-  padding: 17px 19px 15px;
+  padding: 17px 20px 15px;
 }
 
 .pagination-item a:hover,
@@ -1108,7 +1110,7 @@ input::-webkit-inner-spin-button {
   border: 3px solid var(--border-grey-midle);
   box-shadow: none;
   display: block;
-  padding: 14px 16px 12px;
+  padding: 14px 17px 12px;
   background-color: var(--white);
 }
 
